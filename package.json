@@ -1,0 +1,53 @@
+{
+  "name": "tilr",
+  "version": "1.0.0",
+  "description": "Generate tile-based animations from video files using differential binary encoding",
+  "type": "module",
+  "bin": {
+    "tilr": "./bin/tile-animation.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./decoder": "./src/decoder/decode-cadf.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "viewer/",
+    "docs/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "jimp": "^1.6.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "tile",
+    "animation",
+    "video",
+    "binary",
+    "silhouette",
+    "ffmpeg"
+  ],
+  "author": "sahksas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahksas/tilr.git"
+  },
+  "homepage": "https://github.com/sahksas/tilr#readme",
+  "bugs": {
+    "url": "https://github.com/sahksas/tilr/issues"
+  }
+}
