@@ -2,7 +2,9 @@
   tilr - Tile Animation Generator
 </h1>
 
-<img src="./img/tilr.png" alt="Logo" width="600" style="display: block; margin: 20px auto;">
+<p align="center">
+  <img src="./img/tilr.png" alt="Logo" width="600" style="margin: 20px auto;">
+</p>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -38,6 +40,10 @@
 ---
 
 ## 概要
+
+| original                   | tile animation                        |
+| -------------------------- | ------------------------------------- |
+| ![original](./img/ebe.gif) | ![tile animation](./img/ebe-tilr.gif) |
 
 Tile Animation Generator は、動画をタイル調のアニメーションに変換するツールです。動画からシルエットを抽出し、レトロなピクセルアート風のモザイクアニメーションとして Web ブラウザ上で再生できます。
 
